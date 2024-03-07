@@ -13,9 +13,9 @@ struct KHAlert: View {
     
     var titleView:KHAlertTitle?
     var messegeView:KHAlertMessege?
-    var buttonViews:[KHAlertButton]?
+    var buttonViews:[KHButton]?
     
-    
+        
     
     var body: some View {
         Color.black.opacity(0.4)
@@ -44,6 +44,10 @@ struct KHAlert: View {
     KHAlert(presentAlert: .constant(true), 
             titleView: KHAlert.KHAlertTitle(title: "제목입니다"),
             messegeView: KHAlert.KHAlertMessege(messege: "메세지입니다."),
-            buttonViews: [KHAlert.KHAlertButton(title: "왼쪽"),
-                          KHAlert.KHAlertButton(title: "오른쪽")])
+            buttonViews: [KHButton(action: {
+        
+    }, title: "왼쪽"),
+                          KHButton(action: {
+        
+    }, title: "오른쪽")])
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395FEF302B99ED9C00CAB2D8 /* KHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395FEF2F2B99ED9C00CAB2D8 /* KHButton.swift */; };
 		3974BED52B9897D2004453EC /* KHAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974BED42B9897D2004453EC /* KHAlertApp.swift */; };
 		3974BED72B9897D2004453EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974BED62B9897D2004453EC /* ContentView.swift */; };
 		3974BED92B9897D3004453EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3974BED82B9897D3004453EC /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		395FEF2F2B99ED9C00CAB2D8 /* KHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHButton.swift; sourceTree = "<group>"; };
 		3974BED12B9897D2004453EC /* KHAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3974BED42B9897D2004453EC /* KHAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHAlertApp.swift; sourceTree = "<group>"; };
 		3974BED62B9897D2004453EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				3974BEE42B98A646004453EC /* KHAlertTitle.swift */,
 				3974BEE62B98A68E004453EC /* KHAlertMessege.swift */,
 				3974BEE82B98A6CE004453EC /* KHAlertButton.swift */,
+				395FEF2F2B99ED9C00CAB2D8 /* KHButton.swift */,
 			);
 			path = KHAlert;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				3974BED72B9897D2004453EC /* ContentView.swift in Sources */,
 				3974BEE52B98A646004453EC /* KHAlertTitle.swift in Sources */,
 				3974BEE32B98983B004453EC /* KHAlert.swift in Sources */,
+				395FEF302B99ED9C00CAB2D8 /* KHButton.swift in Sources */,
 				3974BEE92B98A6CE004453EC /* KHAlertButton.swift in Sources */,
 				3974BED52B9897D2004453EC /* KHAlertApp.swift in Sources */,
 				3974BEE72B98A68E004453EC /* KHAlertMessege.swift in Sources */,
